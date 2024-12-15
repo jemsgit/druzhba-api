@@ -1,0 +1,23 @@
+{
+  "name": "vk-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "easyvk": "^2.8.2",
+    "express": "^4.19.2",
+    "redis": "^4.7.0"
+  },
+  "scripts": {
+    "start": "node src/index-simp.js",
+    "dev": "nodemon src/index-simp.js",
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "del": "6",
+    "gulp": "^5.0.0",
+    "nodemon": "^3.1.4"
+  }
+}
